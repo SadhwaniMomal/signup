@@ -1,0 +1,140 @@
+@import url("https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container-fluid {
+  background-color: #7878787b;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  height: 100vh; /* Make the wrapper take the full height of the viewport or adjust as needed */
+  gap: 40px;
+}
+
+.heading--text {
+  writing-mode: vertical-rl;
+  text-orientation: mixed;
+  color: white;
+  font-size: 60pt;
+  font-weight: bold;
+  font-family: "Poetsen One", sans-serif;
+  position: relative;
+  top: 200px;
+}
+.imgss img {
+  height: 20%;
+}
+
+.logo {
+  height: 15%;
+  width: 100%;
+  margin-left: 550px;
+  /* border: 1px solid red; */
+}
+.section--img img {
+  height: 100%;
+  width: 100%;
+}
+.text-1 {
+  font-size: 14px;
+  margin-left: 200px !important;
+  /* margin-top: 100px; */
+  margin-bottom: 30px;
+}
+
+.icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.login-box {
+  margin-top: 100px;
+  padding-right: 150px;
+}
+.login-box button img {
+  width: 18px;
+  margin-right: 10px;
+}
+
+.login-box button {
+  width: 75%;
+  padding: 5px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px 0 50px 150px;
+  border-radius: 10px;
+  background: black;
+  color: white;
+  border: 1px solid #999;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.divider {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  width: 75%;
+  max-width: 400px;
+  margin-left: 150px;
+  margin-top: 10px;
+}
+
+.divider hr {
+  flex: 1;
+  border: none;
+  border-top: 1px solid #000;
+  margin: 0 10px;
+  margin-top: -18px;
+  margin-bottom: 23px;
+}
+
+.divider span {
+  margin-top: -44px;
+  /* border: 1px solid red; */
+  padding: 0 10px;
+  color: #000;
+}
+input {
+  background-color: transparent !important;
+  border: none !important;
+  outline: 2px solid rgba(0, 0, 0, 0.571);
+  margin: 10px 0 50px 150px;
+  /* margin-left: 225px; */
+}
+
+.form-check {
+  padding: 10px;
+  display: flex;
+  align-items: center;
+}
+.terms {
+  color: #000;
+  font-weight: 300;
+  font-family: sans-serif;
+  font-weight: normal;
+  font-size: 14px;
+  height: 40px;
+  margin-left: 150px;
+  margin-top: -30px;
+}
+
+.terms span a {
+  text-decoration: underline;
+  color: #000;
+  font-weight: bold;
+}
+.signup1 {
+  margin-bottom: 100px;
+}
+.tittle {
+  font-size: 14px !important;
+  margin-left: 190px !important;
+}
